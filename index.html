@@ -4,10 +4,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MY RGUKT</title>
     <link rel="stylesheet" href="final.css">
-    
 </head>
 <body>
-<img src='Images/logo.png' class="img lg">
+<img src='/home/mohit/logo.png' class="img lg">
 <img class="im">
     <header>
   <nav class="lg">  
@@ -23,24 +22,24 @@
   <h1>Contact Us</h1>
   <p>This Website has been created by <b><i>Mohit Yaduvamsi </i></b>of O20 batch </p>
   <a href='https://github.com/Mohit-Siva'>
-  <img src='Images/github.png' style='height:80px' class='cu'>
+  <img src='/home/mohit/Downloads/github.png' class='cu'>
   </a>
   <a href='https://www.linkedin.com/in/mohit-siva-79nm/'>
-  <img src='Images/linkedin.png' style='height:80px' class='cu'>
+  <img src='/home/mohit/Downloads/linkedin.png' class='cu'>
   </a>
   <a href='https://mail.google.com/mail/u/0/#sent?compose=CllgCJZdBMlXqBvvSWtVnJbmwshGXBWBvvKCjthXvMBGntlqSHtSKtFRhnwdKXCWRhWnRdsgljq'>
-  <img src='Images/gmail.png' style='height:80px' class='cu'>
+  <img src='/home/mohit/Downloads/gmail.png' class='cu'>
   </a>
   <p></p>
   <p></p>
   <p>
-  <img src='Images/sk.png' class="sk">
+  <img src='sk.png' class="sk">
   </p>
 </body>  </html>  
 <style>
 .cu{
      margin:25px;
-     
+     height:80px;
     }
 .cu:hover
 {
@@ -55,9 +54,28 @@ height:160px;
 position:absolute;
 left:33%;
 }
-.sk:hover
+
+
+
+/*mobile*/
+
+@media only screen and (max-width: 480px)   {
+.cu{ height:60px;
+     margin:20px;
+   }
+.cu:hover
 {
- src("ks.png");
-} 
-    
+ transform: translate(0,-11px)
+}    
+.lg:hover
+{
+ transform: translate(0,-11px)
+}  
+.sk{
+height:69px;
+position:absolute;
+top:899px;
+left:95px;
+}
+}
 </style>
