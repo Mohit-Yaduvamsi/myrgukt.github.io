@@ -1,7 +1,7 @@
  
         body {
             font-family: Arial, sans-serif;
-            background-image:url("Images/wbmul-min.jpg");
+            background-image:url("Images/wbmul-mi.jpg");
             height: 100%;
             background-position: center;
             background-repeat: no-repeat;
@@ -151,7 +151,7 @@
              }
           header {
             
-            font-size:26px;
+            font-size:27px;
             text-align: none;
             
           }
