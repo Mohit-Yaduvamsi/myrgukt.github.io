@@ -142,7 +142,7 @@
            transform: scale(1);
            }
 /*  Mobile Version  */
-@media only screen and (max-width: 480px)   {
+@media only screen and (max-width: 600px)   {
          .lt{
             display:none;
              }     
